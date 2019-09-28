@@ -54,7 +54,7 @@ function createBody(element,nums){
 
 function createTable(element,nums){
 	var node= document.createElement("table");
-	createHeader(node);
+	//createHeader(node);
 	createBody(node,nums);
 	element.appendChild(node);
 }
